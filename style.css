@@ -1,0 +1,134 @@
+/* Reset beberapa styling default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Styling Carousel / Jumbotron */
+.carousel {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.carousel h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.carousel p {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Styling Section Info */
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.info .container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+}
+
+.info-image img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.info-text {
+    padding-left: 20px;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Styling Section Cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Styling Section Table */
+.table-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.table-section table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-section th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table-section td {
+    text-align: center;
+}
+
+    
